@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mini Assembly HMI - Demo</title>
+    <style>body{font-family:Arial;margin:20px;} .box{margin-bottom:12px;}</style>
+  </head>
+  <body>
+    <h2>Mini Assembly HMI — Demo</h2>
+    <div class="box">
+      <button id="btnStart">Start</button>
+      <button id="btnStop">Stop</button>
+    </div>
+    <div class="box">
+      <label>Motor RPM: <span id="rpm">0</span></label>
+    </div>
+    <div class="box">
+      <label>Last Vision: <span id="vision">N/A</span></label>
+    </div>
+    <script>
+      // Simple demo HMI: replace with real websocket/MQTT client
+      document.getElementById('btnStart').onclick = ()=>{
+        alert('Send Start command to PLC/Device (implement comms)');
+      }
+      document.getElementById('btnStop').onclick = ()=>{
+        alert('Send Stop command to PLC/Device (implement comms)');
+      }
+      // Mock realtime update
+      let rpmEl = document.getElementById('rpm');
+      let visionEl = document.getElementById('vision');
+      setInterval(()=>{
+        rpmEl.textContent = (Math.random()*200).toFixed(1);
+        visionEl.textContent = Math.random()>0.2? 'OK' : 'NG';
+      },1000);
+    </script>
+  </body>
+</html>
