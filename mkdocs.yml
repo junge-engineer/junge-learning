@@ -1,0 +1,39 @@
+site_name: Junge Learning — 机电与自动化课程
+site_description: Course syllabi and teaching resources for Mechanical & Automation
+site_author: Junge Learning
+site_url: https://<your-github-username>.github.io/<your-repo>
+
+nav:
+  - Home: index.md
+  - Program Overview: courses/overview.md
+  - Courses:
+    - MAE101 Mechanical Drawing: courses/MAE101-Mechanical-Drawing.md
+    - MAE102 Engineering Mechanics: courses/MAE102-Engineering-Mechanics.md
+    - MAE103 Mechanism & Transmission: courses/MAE103-Mechanism-Transmission.md
+    - MAE104 Control Theory (Syllabus): courses/MAE104-Control-Theory.md
+    - MAE104 Control Theory (Teach Plan): courses/MAE104-TeachPlan.md
+    - MAE105 Mechatronics & PLC: courses/MAE105-Mechatronics-PLC.md
+    - MAE201 Transmission Dynamics: courses/MAE201-Transmission-Dynamics.md
+    - MAE301 Robotics Motion: courses/MAE301-Robotics-Motion.md
+    - MAE302 Intelligent Manufacturing: courses/MAE302-Intelligent-Manufacturing.md
+    - MAE303 Advanced Manufacturing: courses/MAE303-Advanced-Manufacturing.md
+    - MAE401 Capstone Project: courses/MAE401-Capstone-Project.md
+
+theme:
+  name: material
+  palette:
+    scheme: default
+  features:
+    - navigation.instant
+  language: zh
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - type: github
+      link: https://github.com/
+
+edit_uri: edit/main/docs
