@@ -1,10 +1,33 @@
 # 专业学习推荐文档
 
-本仓库包含针对机械与自动化、电气专业、嵌入式系统，以及大一阶段学习规划的多份推荐文档。
+本仓库整理了适合机电类专业学生的学习参考资料，侧重：
+- 专业基础知识点
+- 前沿技术与“卡脖子”领域
+- 视频课程与学习资料
+- 校内项目与竞赛建议
+- 大一阶段学习规划与实践路径
 
-文档列表：
+## 文档说明
 
-- `mechanical-automation-recommendations.md` - 机械与自动化专业核心知识点、视频和资料推荐
-- `electrical-engineering-recommendations.md` - 电气专业核心知识点、视频和资料推荐
-- `embedded-systems-recommendations.md` - 嵌入式系统核心知识点、视频和资料推荐
-- `freshman-study-plan-recommendations.md` - 大一阶段学习方式、项目与竞赛建议
+- `mechanical-automation-recommendations.md` - 机械与自动化专业推荐，包含细分知识、前沿项目、智能制造与机器人方向。
+- `electrical-engineering-recommendations.md` - 电气专业推荐，包含电力电子、智能电网、新能源与卡脖子技术。
+- `embedded-systems-recommendations.md` - 嵌入式系统推荐，包含嵌入式AI、物联网、RISC-V与安全设计。
+- `freshman-study-plan-recommendations.md` - 大一阶段整体规划，包含学习方法、项目竞赛、前沿技术与突破策略。
+
+## 使用方式
+
+1. 阅读对应专业文档，确认自己感兴趣的方向。
+2. 按文档中推荐的知识点和项目清单制定学习计划。
+3. 结合校内资源与社团活动，选择适合的竞赛或科研项目。
+4. 重点关注前沿技术和国产“卡脖子”领域，形成差异化优势。
+
+## 目标读者
+
+- 机械与自动化专业学生
+- 电气工程专业学生
+- 嵌入式系统与物联网方向学生
+- 大一新生，希望系统规划学习与实践
+
+## 贡献说明
+
+欢迎根据个人学习经验补充更多资料、项目案例和前沿技术参考。
