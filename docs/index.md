@@ -18,6 +18,8 @@ Welcome to the Junge Learning course & resources site.
   - [MAE302 智能制造与数字孪生](courses/MAE302-Intelligent-Manufacturing.md)
   - [MAE303 先进制造（选修）](courses/MAE303-Advanced-Manufacturing.md)
   - [MAE401 毕业设计 / 综合项目](courses/MAE401-Capstone-Project.md)
+- [个人 12 个月学习计划](Personal-Learning-Plan-12-Months.md)
+- [个人职业学习路线](Personal-Career-Learning-Path.md)
 
 ## 快速指南 / Quick Start
 
